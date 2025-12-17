@@ -1,0 +1,49 @@
+name: EEX-placebased-exposure
+channels:
+  - conda-forge
+dependencies:
+  # Core
+  - python=3.12
+  - pip
+
+  # Scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+
+  # Geospatial stack
+  - geopandas
+  - shapely
+  - pyproj
+  - cartopy
+  - pyogrio
+  - gdal
+  - netcdf4
+
+  # Viz / dashboards
+  - matplotlib
+  - bokeh
+  - holoviews
+  - geoviews
+  - datashader
+  - panel
+  - colorcet
+
+  # Data / IO
+  - pyarrow
+  - polars
+
+  # Jupyter ecosystem
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - jupyter_bokeh
+
+  # Docs (keep if you actually build books)
+  - jupyter-book
+
+  # Optional but useful utilities
+  - tqdm
+  - pyyaml
